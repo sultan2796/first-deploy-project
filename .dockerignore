@@ -1,0 +1,27 @@
+# Ignore git and build artifacts
+.git/
+.gitignore
+
+**/bin/
+**/obj/
+**/out/
+
+# IDE/editor settings
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS files
+Thumbs.db
+*.DS_Store
+
+# Docker files not needed in context
+Dockerfile*
+docker-compose*.yml
+
+# Logs and caches
+*.log
+*.cache
+
+
